@@ -1,0 +1,677 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. MainApp">
+      <UniqueIdentifier>{223edb6a-5121-42ec-85fe-332c75e150a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene">
+      <UniqueIdentifier>{8aa24825-d057-4e73-847a-41de2035786e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\00.For.Logo">
+      <UniqueIdentifier>{46cc8737-0a35-4c29-9bfa-08eb85cc0340}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\01.For.Stage">
+      <UniqueIdentifier>{3c90b4bb-3c95-4f88-9bca-0ae6a6e49ce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\99.Loading">
+      <UniqueIdentifier>{36e7e8c6-b3a4-4cf2-8003-d4c5c8f2f393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject">
+      <UniqueIdentifier>{e6cb9297-e21a-48e9-8dcd-d18d7a480847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Logo">
+      <UniqueIdentifier>{690e180a-afb5-4ef5-ac1a-4a71d2f6e747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage">
+      <UniqueIdentifier>{00056717-bd14-47ce-836e-f1a817096b4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Public">
+      <UniqueIdentifier>{949074ba-8c6d-47af-8213-bb9b5100534b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Logo\00. Logo">
+      <UniqueIdentifier>{b98cf24a-cef9-4951-9697-e1f487b39f00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Public\00. Camera_Dynamic">
+      <UniqueIdentifier>{e105de78-207b-4790-97e9-cd1980448a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Public\01. Camera_Static">
+      <UniqueIdentifier>{8f8e0afd-8d3c-4bda-8bc0-d09c8136aeb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\01. Player">
+      <UniqueIdentifier>{18380c71-edf8-452f-8d92-b4a1270a3c4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\02. Weapon">
+      <UniqueIdentifier>{9f60b97e-54c1-49b4-8a5f-c50cf8dfb491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\02. Weapon\00. CrossBow">
+      <UniqueIdentifier>{931ef694-4af5-4870-82ce-6d32b42307f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\00. BackGround">
+      <UniqueIdentifier>{5c489930-dcc8-4d45-99b5-e09de9563e38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\00. BackGround\00. Terrain">
+      <UniqueIdentifier>{d2ae67e8-4f77-4843-8545-eabf20026a0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\00. BackGround\01. Sky">
+      <UniqueIdentifier>{a5b6893c-2f69-4499-aa51-bc96480e5dcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\99. Test">
+      <UniqueIdentifier>{d80eaba0-7d2a-4704-a20f-7f814996c062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\99. Test\00. TestObj">
+      <UniqueIdentifier>{8cea634f-6641-41dc-b6f9-92381b6285ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\99. Test\01. TestNavi">
+      <UniqueIdentifier>{2b35b8ca-d21b-4a00-b476-788f3c53f47a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. ShaderFiles">
+      <UniqueIdentifier>{096c14a8-f59e-4498-bdab-1e4458cb1021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Headers">
+      <UniqueIdentifier>{8299cdd9-5cc8-4245-af95-43317cf01747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Default">
+      <UniqueIdentifier>{eae395e4-1bb7-41a8-9c3e-bfc8ac00436b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\02. Weapon\01. Arrow">
+      <UniqueIdentifier>{9d4168c3-c45a-458c-8a1f-b29f00d44f8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\03. Tower">
+      <UniqueIdentifier>{65c69828-574a-4047-b2cc-391f7cbe35d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\03. Tower\00. LightningTower">
+      <UniqueIdentifier>{268e5974-723e-458c-8b0b-a56c745ba904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\04. MapObj">
+      <UniqueIdentifier>{a1c9bcd1-3a12-41c0-a014-3be7b1b078c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\04. MapObj\00. BaseObj">
+      <UniqueIdentifier>{79657226-0250-443c-8f0b-3bd7d5e5517f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\04. MapObj\01. Tree">
+      <UniqueIdentifier>{ccc6e387-df66-4d4a-aa28-f0f09c322fe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\04. MapObj\02. NoCollObj">
+      <UniqueIdentifier>{37fe7e65-e314-4f55-a258-76e8cd94c9ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\05. Monster">
+      <UniqueIdentifier>{e4f62fb5-7c62-4030-8d6f-a40255a6aef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\05. Monster\01. Boss">
+      <UniqueIdentifier>{c717c5a8-a03a-44aa-a222-e10696c29362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\04. MapObj\03. Door">
+      <UniqueIdentifier>{aec735d0-e89a-41cc-9459-874829a8dc32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\03.For.Boss">
+      <UniqueIdentifier>{16326568-4ea9-4155-afe6-0ad569b2b86a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\02.For.BossLogo">
+      <UniqueIdentifier>{9831c827-c3ef-4dba-b97d-4eb30fb7a975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\00. BackGround\02. BossTerrain">
+      <UniqueIdentifier>{61d219d9-8a7b-49e3-bc2a-b08b17db200f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\06. Skill">
+      <UniqueIdentifier>{d618d48e-88d7-498b-92ce-b6f9e1f840a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\06. Skill\00. Player">
+      <UniqueIdentifier>{f094ffc3-b316-46e1-96c8-94a68acf6555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\06. Skill\01. Monster">
+      <UniqueIdentifier>{50de2612-cf9b-4a30-bbf9-889c44b392fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\06. Skill\01. Monster\00. Boss">
+      <UniqueIdentifier>{1b66972b-ecff-4e6c-ade5-2a5fd0532246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\06. Skill\01. Monster\00. Boss\00. Explosion">
+      <UniqueIdentifier>{9a1527d2-1dbf-4af7-922b-21918dd6cc82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\06. Skill\01. Monster\00. Boss\01. Misile">
+      <UniqueIdentifier>{2f750cf9-e45f-4a7b-ae1c-3ebd1e4164bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\06. Skill\01. Monster\00. Boss\02. Cutter">
+      <UniqueIdentifier>{8ae56313-3d7c-487b-8995-882744487c46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\05. Monster\02. SnowmanBoss">
+      <UniqueIdentifier>{ad8778c8-513a-4d19-be9a-581aa3161702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\05. Monster\03. Goblin">
+      <UniqueIdentifier>{32ec2508-1bbc-41c9-b139-1298ff8eca5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\05. Monster\04. DarkAlfArcher">
+      <UniqueIdentifier>{3d89d767-1234-4c6f-ae23-6d3e4839e202}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\05. Monster\05. Kobold">
+      <UniqueIdentifier>{92c097fd-4835-49dd-b7a3-4495b2b03fde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\05. Monster\06. OrcBruiser">
+      <UniqueIdentifier>{ad75e72f-fa60-4668-adc3-614c04b16f6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\06. Skill\01. Monster\01. DarkElfArchar_Arrow">
+      <UniqueIdentifier>{16143456-2f39-4c31-ac42-85b32576a5b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\03. Tower\02. MisileTower">
+      <UniqueIdentifier>{e3f0b4a1-97f4-4a17-983e-d96d55bf29a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\03. Tower\03. Shield">
+      <UniqueIdentifier>{ec48b84e-270f-46e0-b826-65a9895257c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\07. NPC">
+      <UniqueIdentifier>{16e817a9-bad0-4e7e-9574-3d821c998525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\07. NPC\00. Santa">
+      <UniqueIdentifier>{8a678f01-90c3-41b9-b3c4-a005f822cb12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\07. NPC\00. Santa\00. Item">
+      <UniqueIdentifier>{e6667954-27fb-483d-b86f-3150fba2299e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\08. Paticle">
+      <UniqueIdentifier>{38c080ff-e53c-47b6-ae7a-50e44ed02035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\08. Paticle\00. Snow">
+      <UniqueIdentifier>{6cce879c-80be-49f9-89ca-b67802494961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\08. Paticle\01. BossPaticle">
+      <UniqueIdentifier>{8520e6a0-3aba-4bb5-a436-d909e092f164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\06. Skill\01. Monster\00. Boss\01. Misile\00. Flame">
+      <UniqueIdentifier>{1983fba3-82be-41fb-bc3d-12eb506e5926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\03. Tower\00. LightningTower\00. Lighning">
+      <UniqueIdentifier>{bfea5845-5c38-48d0-b966-e755f375a423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\03. Tower\01. DragonKiller">
+      <UniqueIdentifier>{140ae9a2-f093-4907-afc7-1fc1b8bde050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\03. Tower\01. DragonKiller\00. DragonArrow">
+      <UniqueIdentifier>{1f790a48-5335-468b-bbcc-b6731d499351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\03. Tower\02. MisileTower\00. Missile">
+      <UniqueIdentifier>{fd090326-2a1e-4e4e-a70d-bad2ce6e2001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\10. Effect">
+      <UniqueIdentifier>{94269fef-834a-4d24-8d53-9dc973638819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\10. Effect\00. Fire_Explosion">
+      <UniqueIdentifier>{fb348963-0f93-41d2-9b93-0905867db065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. Manager">
+      <UniqueIdentifier>{8790ce07-bb9c-495b-89a9-f6280474ac2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. Manager\00. Wave_Manager">
+      <UniqueIdentifier>{1a1d0578-de82-4ac1-b039-3b13bf1c7501}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\11. UI">
+      <UniqueIdentifier>{80e29165-585f-4ff4-bd6c-d0c4eef0584e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\11. UI\00. Panel">
+      <UniqueIdentifier>{ac5a4822-7f4c-4893-9026-c3724c59e4cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\11. UI\01. SkillIcon">
+      <UniqueIdentifier>{c9eb6ba0-003d-4d48-9bb3-f70e1441f79c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Logo\01. MainLogo">
+      <UniqueIdentifier>{fd208cb1-945a-48c9-b5a6-eeb90980befd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\11. UI\02. HpBar">
+      <UniqueIdentifier>{c00aac15-1551-4f30-936b-86abaf1958c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\11. UI\03. MpBar">
+      <UniqueIdentifier>{b8d6aced-4701-4601-85ce-e5313dce8999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\11. UI\04. Aim">
+      <UniqueIdentifier>{b2c5a9e0-7675-4d5b-9a17-57a9d3e4dc80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. Manager\01. Sound_Manager">
+      <UniqueIdentifier>{fc9e960f-8a78-4f0e-aaf4-0e80fb4d9135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\04. MapObj\04. DooriN">
+      <UniqueIdentifier>{bd47fe09-afce-4855-beb9-34268e9b43af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\11. UI\05. End">
+      <UniqueIdentifier>{f44334c7-afb5-4315-b4b5-08a5187de248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. Manager\02. Collision_Manager">
+      <UniqueIdentifier>{1d374e1a-cd50-444d-9b89-099cf445c1e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\11. UI\06. Phase">
+      <UniqueIdentifier>{48daaa93-99e3-4a46-85f6-86224a813a71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\For.Stage\04. MapObj\05. Crystal">
+      <UniqueIdentifier>{5e812056-f113-4322-8de4-276f850f69f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Observer">
+      <UniqueIdentifier>{ce93cda7-c0c1-4e43-a1ed-bc1f4849c51e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Observer\00. CameraObserver">
+      <UniqueIdentifier>{a1f2c986-1071-4c06-9869-acad631fa40c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\headers\MainApp.h">
+      <Filter>00. MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Defines.h">
+      <Filter>98. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Constant.h">
+      <Filter>98. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Scene_Logo.h">
+      <Filter>01. Scene\00.For.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Scene_Stage.h">
+      <Filter>01. Scene\01.For.Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Loading.h">
+      <Filter>01. Scene\99.Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Back_Logo.h">
+      <Filter>02. GameObject\For.Logo\00. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Camera_Dynamic.h">
+      <Filter>02. GameObject\For.Public\00. Camera_Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Camera_Static.h">
+      <Filter>02. GameObject\For.Public\01. Camera_Static</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Player.h">
+      <Filter>02. GameObject\For.Stage\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\CrossBow.h">
+      <Filter>02. GameObject\For.Stage\02. Weapon\00. CrossBow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Terrain.h">
+      <Filter>02. GameObject\For.Stage\00. BackGround\00. Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Sky.h">
+      <Filter>02. GameObject\For.Stage\00. BackGround\01. Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\TestObj.h">
+      <Filter>02. GameObject\For.Stage\99. Test\00. TestObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\TestNavi.h">
+      <Filter>02. GameObject\For.Stage\99. Test\01. TestNavi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Arrow.h">
+      <Filter>02. GameObject\For.Stage\02. Weapon\01. Arrow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\LightningTower.h">
+      <Filter>02. GameObject\For.Stage\03. Tower\00. LightningTower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\BaseObj.h">
+      <Filter>02. GameObject\For.Stage\04. MapObj\00. BaseObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Tree.h">
+      <Filter>02. GameObject\For.Stage\04. MapObj\01. Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\NoCollObj.h">
+      <Filter>02. GameObject\For.Stage\04. MapObj\02. NoCollObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Monster.h">
+      <Filter>02. GameObject\For.Stage\05. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Boss.h">
+      <Filter>02. GameObject\For.Stage\05. Monster\01. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Door.h">
+      <Filter>02. GameObject\For.Stage\04. MapObj\03. Door</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Scene_Boss.h">
+      <Filter>01. Scene\03.For.Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\BossLogo.h">
+      <Filter>01. Scene\02.For.BossLogo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\BossTerrain.h">
+      <Filter>02. GameObject\For.Stage\00. BackGround\02. BossTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Explosion.h">
+      <Filter>02. GameObject\For.Stage\06. Skill\01. Monster\00. Boss\00. Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Missile.h">
+      <Filter>02. GameObject\For.Stage\06. Skill\01. Monster\00. Boss\01. Misile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\SnowmanBoss.h">
+      <Filter>02. GameObject\For.Stage\05. Monster\02. SnowmanBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\WindCutter.h">
+      <Filter>02. GameObject\For.Stage\06. Skill\01. Monster\00. Boss\02. Cutter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Goblin.h">
+      <Filter>02. GameObject\For.Stage\05. Monster\03. Goblin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\DarkElfArcher.h">
+      <Filter>02. GameObject\For.Stage\05. Monster\04. DarkAlfArcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Kobold.h">
+      <Filter>02. GameObject\For.Stage\05. Monster\05. Kobold</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\OrcBruiser.h">
+      <Filter>02. GameObject\For.Stage\05. Monster\06. OrcBruiser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\ElfArrow .h">
+      <Filter>02. GameObject\For.Stage\06. Skill\01. Monster\01. DarkElfArchar_Arrow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\MisileTower.h">
+      <Filter>02. GameObject\For.Stage\03. Tower\02. MisileTower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Shield.h">
+      <Filter>02. GameObject\For.Stage\03. Tower\03. Shield</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Santa.h">
+      <Filter>02. GameObject\For.Stage\07. NPC\00. Santa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Item.h">
+      <Filter>02. GameObject\For.Stage\07. NPC\00. Santa\00. Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Snow.h">
+      <Filter>02. GameObject\For.Stage\08. Paticle\00. Snow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Boss_Paticle.h">
+      <Filter>02. GameObject\For.Stage\08. Paticle\01. BossPaticle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\FrameEffect.h">
+      <Filter>02. GameObject\For.Stage\06. Skill\01. Monster\00. Boss\01. Misile\00. Flame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\LightningBall.h">
+      <Filter>02. GameObject\For.Stage\03. Tower\00. LightningTower\00. Lighning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\DragonKiller.h">
+      <Filter>02. GameObject\For.Stage\03. Tower\01. DragonKiller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\DragonArrow.h">
+      <Filter>02. GameObject\For.Stage\03. Tower\01. DragonKiller\00. DragonArrow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\TowerMisile.h">
+      <Filter>02. GameObject\For.Stage\03. Tower\02. MisileTower\00. Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Fire_Explosion.h">
+      <Filter>02. GameObject\For.Stage\10. Effect\00. Fire_Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Wave_Manager.h">
+      <Filter>96. Manager\00. Wave_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Panel.h">
+      <Filter>02. GameObject\For.Stage\11. UI\00. Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\SkillIcon.h">
+      <Filter>02. GameObject\For.Stage\11. UI\01. SkillIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\MainBack_Logo.h">
+      <Filter>02. GameObject\For.Logo\01. MainLogo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\HpBar.h">
+      <Filter>02. GameObject\For.Stage\11. UI\02. HpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\MpBar.h">
+      <Filter>02. GameObject\For.Stage\11. UI\03. MpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Aim.h">
+      <Filter>02. GameObject\For.Stage\11. UI\04. Aim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Sound_Manager.h">
+      <Filter>96. Manager\01. Sound_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\DoorIn.h">
+      <Filter>02. GameObject\For.Stage\04. MapObj\04. DooriN</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Ending.h">
+      <Filter>02. GameObject\For.Stage\11. UI\05. End</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\CollisionMgr.h">
+      <Filter>96. Manager\02. Collision_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Phase.h">
+      <Filter>02. GameObject\For.Stage\11. UI\06. Phase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Crystal.h">
+      <Filter>02. GameObject\For.Stage\04. MapObj\05. Crystal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\CameraObserver.h">
+      <Filter>03. Observer\00. CameraObserver</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MainApp.cpp">
+      <Filter>00. MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene_Logo.cpp">
+      <Filter>01. Scene\00.For.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene_Stage.cpp">
+      <Filter>01. Scene\01.For.Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Loading.cpp">
+      <Filter>01. Scene\99.Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Back_Logo.cpp">
+      <Filter>02. GameObject\For.Logo\00. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Camera_Dynamic.cpp">
+      <Filter>02. GameObject\For.Public\00. Camera_Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Camera_Static.cpp">
+      <Filter>02. GameObject\For.Public\01. Camera_Static</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Player.cpp">
+      <Filter>02. GameObject\For.Stage\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\CrossBow.cpp">
+      <Filter>02. GameObject\For.Stage\02. Weapon\00. CrossBow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Terrain.cpp">
+      <Filter>02. GameObject\For.Stage\00. BackGround\00. Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sky.cpp">
+      <Filter>02. GameObject\For.Stage\00. BackGround\01. Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\TestObj.cpp">
+      <Filter>02. GameObject\For.Stage\99. Test\00. TestObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\TestNavi.cpp">
+      <Filter>02. GameObject\For.Stage\99. Test\01. TestNavi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Arrow.cpp">
+      <Filter>02. GameObject\For.Stage\02. Weapon\01. Arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\LightningTower.cpp">
+      <Filter>02. GameObject\For.Stage\03. Tower\00. LightningTower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\BaseObj.cpp">
+      <Filter>02. GameObject\For.Stage\04. MapObj\00. BaseObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Tree.cpp">
+      <Filter>02. GameObject\For.Stage\04. MapObj\01. Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\NoCollObj.cpp">
+      <Filter>02. GameObject\For.Stage\04. MapObj\02. NoCollObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Monster.cpp">
+      <Filter>02. GameObject\For.Stage\05. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Boss.cpp">
+      <Filter>02. GameObject\For.Stage\05. Monster\01. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Door.cpp">
+      <Filter>02. GameObject\For.Stage\04. MapObj\03. Door</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene_Boss.cpp">
+      <Filter>01. Scene\03.For.Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\BossLogo.cpp">
+      <Filter>01. Scene\02.For.BossLogo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\BossTerrain.cpp">
+      <Filter>02. GameObject\For.Stage\00. BackGround\02. BossTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Explosion.cpp">
+      <Filter>02. GameObject\For.Stage\06. Skill\01. Monster\00. Boss\00. Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Missile.cpp">
+      <Filter>02. GameObject\For.Stage\06. Skill\01. Monster\00. Boss\01. Misile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SnowmanBoss.cpp">
+      <Filter>02. GameObject\For.Stage\05. Monster\02. SnowmanBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\WindCutter.cpp">
+      <Filter>02. GameObject\For.Stage\06. Skill\01. Monster\00. Boss\02. Cutter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Goblin.cpp">
+      <Filter>02. GameObject\For.Stage\05. Monster\03. Goblin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\DarkElfArcher.cpp">
+      <Filter>02. GameObject\For.Stage\05. Monster\04. DarkAlfArcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Kobold.cpp">
+      <Filter>02. GameObject\For.Stage\05. Monster\05. Kobold</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\OrcBruiser.cpp">
+      <Filter>02. GameObject\For.Stage\05. Monster\06. OrcBruiser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ElfArrow.cpp">
+      <Filter>02. GameObject\For.Stage\06. Skill\01. Monster\01. DarkElfArchar_Arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MisileTower.cpp">
+      <Filter>02. GameObject\For.Stage\03. Tower\02. MisileTower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Shield.cpp">
+      <Filter>02. GameObject\For.Stage\03. Tower\03. Shield</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Santa.cpp">
+      <Filter>02. GameObject\For.Stage\07. NPC\00. Santa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Item.cpp">
+      <Filter>02. GameObject\For.Stage\07. NPC\00. Santa\00. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Snow.cpp">
+      <Filter>02. GameObject\For.Stage\08. Paticle\00. Snow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Boss_Paticle.cpp">
+      <Filter>02. GameObject\For.Stage\08. Paticle\01. BossPaticle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\FrameEffect.cpp">
+      <Filter>02. GameObject\For.Stage\06. Skill\01. Monster\00. Boss\01. Misile\00. Flame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\LightningBall.cpp">
+      <Filter>02. GameObject\For.Stage\03. Tower\00. LightningTower\00. Lighning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\DragonKiller.cpp">
+      <Filter>02. GameObject\For.Stage\03. Tower\01. DragonKiller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\DragonArrow.cpp">
+      <Filter>02. GameObject\For.Stage\03. Tower\01. DragonKiller\00. DragonArrow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\TowerMisile.cpp">
+      <Filter>02. GameObject\For.Stage\03. Tower\02. MisileTower\00. Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Fire_Explosion.cpp">
+      <Filter>02. GameObject\For.Stage\10. Effect\00. Fire_Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Wave_Manager.cpp">
+      <Filter>96. Manager\00. Wave_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Panel.cpp">
+      <Filter>02. GameObject\For.Stage\11. UI\00. Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SkillIcon.cpp">
+      <Filter>02. GameObject\For.Stage\11. UI\01. SkillIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MainBack_Logo.cpp">
+      <Filter>02. GameObject\For.Logo\01. MainLogo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\HpBar.cpp">
+      <Filter>02. GameObject\For.Stage\11. UI\02. HpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MpBar.cpp">
+      <Filter>02. GameObject\For.Stage\11. UI\03. MpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Aim.cpp">
+      <Filter>02. GameObject\For.Stage\11. UI\04. Aim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sound_Manager.cpp">
+      <Filter>96. Manager\01. Sound_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\DoorIn.cpp">
+      <Filter>02. GameObject\For.Stage\04. MapObj\04. DooriN</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Ending.cpp">
+      <Filter>02. GameObject\For.Stage\11. UI\05. End</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\CollisionMgr.cpp">
+      <Filter>96. Manager\02. Collision_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Phase.cpp">
+      <Filter>02. GameObject\For.Stage\11. UI\06. Phase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Crystal.cpp">
+      <Filter>02. GameObject\For.Stage\04. MapObj\05. Crystal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\CameraObserver.cpp">
+      <Filter>03. Observer\00. CameraObserver</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>99. Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99. Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99. Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99. Default</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShadersFiles\Shader_Default.fx">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShadersFiles\Shader_Terrain.fx">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShadersFiles\Shader_Cube.fx">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShadersFiles\Shader_Mesh.fx">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShadersFiles\Shader_Particle.fx">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShadersFiles\Shader_Effect.fx">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShadersFiles\Shader_Terrain_Not.fx">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShadersFiles\Shader_UI.fx">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99. Default">
+      <UniqueIdentifier>{cd530de0-5537-40ca-8db7-ef89f90955bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. MainFrm">
+      <UniqueIdentifier>{55d8c909-4c43-46c6-bbff-13cf19b81787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. MyView">
+      <UniqueIdentifier>{1dfeacb4-44bf-451f-93b3-a9139305aa3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Headers">
+      <UniqueIdentifier>{c7004f8b-87aa-4d8b-9e0c-f060b7e3cbdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. MyView\00. MyForm">
+      <UniqueIdentifier>{11e72a42-4077-4db3-b94f-93c9df835bc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. MyView\00. MyForm\00. Tab1">
+      <UniqueIdentifier>{eafef60a-acdc-43ef-a41c-f72dadeeb6be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. MyView\00. MyForm\01. Tab2">
+      <UniqueIdentifier>{b58afe3a-9578-4319-ae99-4972f46b1c04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene">
+      <UniqueIdentifier>{6abe9ad9-06a1-4357-9efb-cc331fdb09b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject">
+      <UniqueIdentifier>{69a63494-3cb3-49c1-ac9f-acd89ab84723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\00. Camera">
+      <UniqueIdentifier>{5be52a38-a349-4fdc-a0e4-0ebc66fd5a71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\01. Terrain">
+      <UniqueIdentifier>{e71a6078-34f2-43eb-ad26-6fd8f1b88f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\02. Object">
+      <UniqueIdentifier>{a1554010-13a2-43b1-a17c-6dfd3cf07c39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\02. Object\00. StaticObject">
+      <UniqueIdentifier>{10ea0c31-0764-45e1-8677-fcb0183901a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\02. Object\01. DynamicObject">
+      <UniqueIdentifier>{26d85a53-3d61-4954-a853-59e2d6b4ef14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\02. Object\02. Navi_Mesh">
+      <UniqueIdentifier>{17c074ce-5c5c-4dfd-97b3-7e41ea14bcf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\02. Object\03. PickObj">
+      <UniqueIdentifier>{4612e277-aed5-440e-8a36-0955ad10efa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. MyView\00. MyForm\02. Tab3">
+      <UniqueIdentifier>{32e43168-9b6c-418b-9779-c2e533736aee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. ShaderFiles">
+      <UniqueIdentifier>{c4ba1663-d28b-4ecb-87a1-9ace2adc5fea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrm.h">
+      <Filter>00. MainFrm</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool76View.h">
+      <Filter>01. MyView</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool76.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool76Doc.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Tab1.h">
+      <Filter>01. MyView\00. MyForm\00. Tab1</Filter>
+    </ClInclude>
+    <ClInclude Include="Tab2.h">
+      <Filter>01. MyView\00. MyForm\01. Tab2</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm.h">
+      <Filter>01. MyView\00. MyForm</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolScene.h">
+      <Filter>02. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolCamera.h">
+      <Filter>03. GameObject\00. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolTerrain.h">
+      <Filter>03. GameObject\01. Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool_Define.h">
+      <Filter>98. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticMesh.h">
+      <Filter>03. GameObject\02. Object\00. StaticObject</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicObject.h">
+      <Filter>03. GameObject\02. Object\01. DynamicObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Navi_Mesh.h">
+      <Filter>03. GameObject\02. Object\02. Navi_Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="PickObj.h">
+      <Filter>03. GameObject\02. Object\03. PickObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Tab3.h">
+      <Filter>01. MyView\00. MyForm\02. Tab3</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>00. MainFrm</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool76View.cpp">
+      <Filter>01. MyView</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool76.cpp">
+      <Filter>99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool76Doc.cpp">
+      <Filter>99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Tab1.cpp">
+      <Filter>01. MyView\00. MyForm\00. Tab1</Filter>
+    </ClCompile>
+    <ClCompile Include="Tab2.cpp">
+      <Filter>01. MyView\00. MyForm\01. Tab2</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>01. MyView\00. MyForm</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolScene.cpp">
+      <Filter>02. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolCamera.cpp">
+      <Filter>03. GameObject\00. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolTerrain.cpp">
+      <Filter>03. GameObject\01. Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticMesh.cpp">
+      <Filter>03. GameObject\02. Object\00. StaticObject</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicObject.cpp">
+      <Filter>03. GameObject\02. Object\01. DynamicObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Navi_Mesh.cpp">
+      <Filter>03. GameObject\02. Object\02. Navi_Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="PickObj.cpp">
+      <Filter>03. GameObject\02. Object\03. PickObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Tab3.cpp">
+      <Filter>01. MyView\00. MyForm\02. Tab3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Tool76.ico">
+      <Filter>99. Default</Filter>
+    </Image>
+    <Image Include="res\Tool76Doc.ico">
+      <Filter>99. Default</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99. Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool76.rc">
+      <Filter>99. Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Tool76.rc2">
+      <Filter>99. Default</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99. Default</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShadersFiles\Shader_Default.fx">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShadersFiles\Shader_Cube.fx">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShadersFiles\Shader_Terrain.fx">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.Component">
+      <UniqueIdentifier>{19e865b0-3489-4ec4-a8a0-bb38e4684dad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\00.Manager">
+      <UniqueIdentifier>{771b0cfc-6085-4766-81a2-36a743775fb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Component">
+      <UniqueIdentifier>{209c44f2-20ca-4559-ba7b-e90176ee9259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Component\00.Resources">
+      <UniqueIdentifier>{d03e9b97-b14a-42d9-9a24-206a50afd2ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Component\01.Transform">
+      <UniqueIdentifier>{4484e7da-e3c7-4b25-9a49-a12213ba222a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Component\02.Renderer">
+      <UniqueIdentifier>{dc0c7eb8-8015-4b48-88d1-c33829364c3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Component\00.Resources\00.Buffers">
+      <UniqueIdentifier>{f71357e7-a43e-47dd-be85-30ad63612323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Component\00.Resources\00.Buffers\Triangle_Color">
+      <UniqueIdentifier>{70579d13-d860-408b-9f0d-f3190d2e8d9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Component\00.Resources\00.Buffers\Rect_Color">
+      <UniqueIdentifier>{d7f792e1-b0c8-4df7-b1a4-84e7f2b8a090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Component\00.Resources\00.Buffers\Rect_Texture">
+      <UniqueIdentifier>{a9e5e11e-3d3b-442c-915d-20121c561a94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene">
+      <UniqueIdentifier>{82b60f1c-8090-4ea8-b55f-0cef26b10006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject">
+      <UniqueIdentifier>{293820aa-67ee-4eac-bf55-85972da56c8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\00.Manager">
+      <UniqueIdentifier>{bae3a7bd-7615-4086-a046-b65a202ec2f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\01.Scene">
+      <UniqueIdentifier>{dcd8abdd-2901-47b4-8ec8-d97339f13c8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Manager">
+      <UniqueIdentifier>{f0913e25-fdf4-4d57-bc77-a434f3227682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Layer">
+      <UniqueIdentifier>{3aef5033-02b6-436d-aeca-d096895e9082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Layer\00.GameObject">
+      <UniqueIdentifier>{85f1578a-3a89-4d87-b1a5-22445eddd7f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Component\00.Resources\01.Texture">
+      <UniqueIdentifier>{32a95455-973e-4e7d-9b90-5efc14c41030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Layer\00.GameObject\Camera">
+      <UniqueIdentifier>{c3862796-2025-40cd-bcf8-c457339167b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Component\00.Resources\00.Buffers\Terrain_Buffer">
+      <UniqueIdentifier>{6af71be1-b397-4cef-a0d3-f575cf884e15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Component\03.Material">
+      <UniqueIdentifier>{e45f2fac-53d2-43a9-a933-ca327c30e526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Component\00.Resources\00.Buffers\Cube_Texture">
+      <UniqueIdentifier>{834f760e-353a-4b51-962d-4be0fab29d54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Component\04.Picking">
+      <UniqueIdentifier>{2c1bcd93-f9fc-412e-9c4e-619f239ed453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Component\00.Resources\00.Buffers\RectUI_Texture">
+      <UniqueIdentifier>{9fcf6803-4875-427d-9a8f-9f01bc0cf07f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Component\00.Resources\02.Mesh">
+      <UniqueIdentifier>{912235cd-e1d0-4faf-847c-b9e38b2830ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Component\00.Resources\02.Mesh\00. Static_Mesh">
+      <UniqueIdentifier>{4d26aeff-a2e0-4ead-9628-4743f017fd2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Component\00.Resources\02.Mesh\01. Dynamic_Mesh">
+      <UniqueIdentifier>{b60b4359-5c2b-43b6-bdb5-ece50ef241bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Component\00.Resources\02.Mesh\01. Dynamic_Mesh\00. Hierarchy_Loader">
+      <UniqueIdentifier>{cfab9da4-ba6f-418a-aaea-161adc62d050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Component\00.Resources\02.Mesh\01. Dynamic_Mesh\01. Animation_Ctril">
+      <UniqueIdentifier>{21532ed0-8665-4dbe-87d2-21a442e66e11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Component\00.Resources\00.Buffers\Collider">
+      <UniqueIdentifier>{2b72ec15-955e-420d-93bc-e2223e34cc3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Layer\00.GameObject\Camera\00. Camera_Manager">
+      <UniqueIdentifier>{fb781b7d-c9ba-4f32-a80b-34375fbf1156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Layer\00.GameObject\Camera\01. Camera">
+      <UniqueIdentifier>{80158bc2-9d18-492c-b386-0b3f3498f9bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Component\05.Navigation">
+      <UniqueIdentifier>{7862b167-6259-4dab-aab3-6a4e943702da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Component\05.Navigation\00.Cell">
+      <UniqueIdentifier>{d8a50485-2c75-478e-a64f-e4f1b8789109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Component\06.Shader">
+      <UniqueIdentifier>{9918e7f5-f6d2-45b1-ba34-9084942d4cfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Component\07.Frustum">
+      <UniqueIdentifier>{b7ab1124-f0f8-4464-965e-15a73726987a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Component\08. Paticle">
+      <UniqueIdentifier>{a71db330-b33e-4065-90b0-478a42dc0610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Component\08. Paticle\00. Snow">
+      <UniqueIdentifier>{c4ff9ae7-deb6-4d84-9b39-258fc068c3c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Component\08. Paticle\01. BossPaticle">
+      <UniqueIdentifier>{1ec6cff0-21d9-401f-9c27-576a6c31e83c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Component\09. Effect">
+      <UniqueIdentifier>{f75fe4d2-0009-4d4e-9499-dc851f9541e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Observer">
+      <UniqueIdentifier>{1d568ca0-ddfb-4385-8091-e6df59191eb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Observer\00. Observer">
+      <UniqueIdentifier>{73bc59d2-a04b-479c-a3eb-458e0a611f7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Observer\01. Subject">
+      <UniqueIdentifier>{94e3105f-dede-4008-a99f-8aa53056e6dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Observer\01. Subject\00. Subject_Manager">
+      <UniqueIdentifier>{2064b32b-e8e6-4580-abf1-35a7a4c11217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Observer\01. Subject\01. DataSubject">
+      <UniqueIdentifier>{d8467f2e-3346-42d3-a187-c55969a841a2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Codes\Component_Manager.cpp">
+      <Filter>00.Component\00.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Component.cpp">
+      <Filter>00.Component\01.Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Resources.cpp">
+      <Filter>00.Component\01.Component\00.Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Triangle_Color.cpp">
+      <Filter>00.Component\01.Component\00.Resources\00.Buffers\Triangle_Color</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\VIBuffer.cpp">
+      <Filter>00.Component\01.Component\00.Resources\00.Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene.cpp">
+      <Filter>01.Scene\01.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Management.cpp">
+      <Filter>01.Scene\00.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GameObject.cpp">
+      <Filter>02.GameObject\01.Layer\00.GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Object_Manager.cpp">
+      <Filter>02.GameObject\00.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Layer.cpp">
+      <Filter>02.GameObject\01.Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Rect_Color.cpp">
+      <Filter>00.Component\01.Component\00.Resources\00.Buffers\Rect_Color</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Renderer.cpp">
+      <Filter>00.Component\01.Component\02.Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Texture.cpp">
+      <Filter>00.Component\01.Component\00.Resources\01.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Rect_Texture.cpp">
+      <Filter>00.Component\01.Component\00.Resources\00.Buffers\Rect_Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Transform.cpp">
+      <Filter>00.Component\01.Component\01.Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Terrain_Buffer.cpp">
+      <Filter>00.Component\01.Component\00.Resources\00.Buffers\Terrain_Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Material.cpp">
+      <Filter>00.Component\01.Component\03.Material</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Cube_Texture.cpp">
+      <Filter>00.Component\01.Component\00.Resources\00.Buffers\Cube_Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Picking.cpp">
+      <Filter>00.Component\01.Component\04.Picking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\RectUI_Texture.cpp">
+      <Filter>00.Component\01.Component\00.Resources\00.Buffers\RectUI_Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Mesh.cpp">
+      <Filter>00.Component\01.Component\00.Resources\02.Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Static_Mesh.cpp">
+      <Filter>00.Component\01.Component\00.Resources\02.Mesh\00. Static_Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Dynamic_Mesh.cpp">
+      <Filter>00.Component\01.Component\00.Resources\02.Mesh\01. Dynamic_Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Hierachy_Loader.cpp">
+      <Filter>00.Component\01.Component\00.Resources\02.Mesh\01. Dynamic_Mesh\00. Hierarchy_Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Animation_Ctrl.cpp">
+      <Filter>00.Component\01.Component\00.Resources\02.Mesh\01. Dynamic_Mesh\01. Animation_Ctril</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Collider.cpp">
+      <Filter>00.Component\01.Component\00.Resources\00.Buffers\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Camera.cpp">
+      <Filter>02.GameObject\01.Layer\00.GameObject\Camera\01. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Camera_Manager.cpp">
+      <Filter>02.GameObject\01.Layer\00.GameObject\Camera\00. Camera_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Cell.cpp">
+      <Filter>00.Component\01.Component\05.Navigation\00.Cell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Navigation.cpp">
+      <Filter>00.Component\01.Component\05.Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Shader.cpp">
+      <Filter>00.Component\01.Component\06.Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Frustum.cpp">
+      <Filter>00.Component\01.Component\07.Frustum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Paticle.cpp">
+      <Filter>00.Component\01.Component\08. Paticle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SnowPaticle.cpp">
+      <Filter>00.Component\01.Component\08. Paticle\00. Snow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\BossPaticle.cpp">
+      <Filter>00.Component\01.Component\08. Paticle\01. BossPaticle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Effect.cpp">
+      <Filter>00.Component\01.Component\09. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Observer.cpp">
+      <Filter>03. Observer\00. Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Subject_Manager.cpp">
+      <Filter>03. Observer\01. Subject\00. Subject_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\DataSubject.cpp">
+      <Filter>03. Observer\01. Subject\01. DataSubject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Headers\Component_Manager.h">
+      <Filter>00.Component\00.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Component.h">
+      <Filter>00.Component\01.Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Triangle_Color.h">
+      <Filter>00.Component\01.Component\00.Resources\00.Buffers\Triangle_Color</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\VIBuffer.h">
+      <Filter>00.Component\01.Component\00.Resources\00.Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Scene.h">
+      <Filter>01.Scene\01.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Management.h">
+      <Filter>01.Scene\00.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\GameObject.h">
+      <Filter>02.GameObject\01.Layer\00.GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Object_Manager.h">
+      <Filter>02.GameObject\00.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Layer.h">
+      <Filter>02.GameObject\01.Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Rect_Color.h">
+      <Filter>00.Component\01.Component\00.Resources\00.Buffers\Rect_Color</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Renderer.h">
+      <Filter>00.Component\01.Component\02.Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Texture.h">
+      <Filter>00.Component\01.Component\00.Resources\01.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Rect_Texture.h">
+      <Filter>00.Component\01.Component\00.Resources\00.Buffers\Rect_Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Transform.h">
+      <Filter>00.Component\01.Component\01.Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Terrain_Buffer.h">
+      <Filter>00.Component\01.Component\00.Resources\00.Buffers\Terrain_Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Material.h">
+      <Filter>00.Component\01.Component\03.Material</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Cube_Texture.h">
+      <Filter>00.Component\01.Component\00.Resources\00.Buffers\Cube_Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Picking.h">
+      <Filter>00.Component\01.Component\04.Picking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\RectUI_Texture.h">
+      <Filter>00.Component\01.Component\00.Resources\00.Buffers\RectUI_Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Mesh.h">
+      <Filter>00.Component\01.Component\00.Resources\02.Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Static_Mesh.h">
+      <Filter>00.Component\01.Component\00.Resources\02.Mesh\00. Static_Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Dynamic_Mesh.h">
+      <Filter>00.Component\01.Component\00.Resources\02.Mesh\01. Dynamic_Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Hierachy_Loader.h">
+      <Filter>00.Component\01.Component\00.Resources\02.Mesh\01. Dynamic_Mesh\00. Hierarchy_Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Animation_Ctrl.h">
+      <Filter>00.Component\01.Component\00.Resources\02.Mesh\01. Dynamic_Mesh\01. Animation_Ctril</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Collider.h">
+      <Filter>00.Component\01.Component\00.Resources\00.Buffers\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Camera.h">
+      <Filter>02.GameObject\01.Layer\00.GameObject\Camera\01. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Camera_Manager.h">
+      <Filter>02.GameObject\01.Layer\00.GameObject\Camera\00. Camera_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Cell.h">
+      <Filter>00.Component\01.Component\05.Navigation\00.Cell</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Navigation.h">
+      <Filter>00.Component\01.Component\05.Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Shader.h">
+      <Filter>00.Component\01.Component\06.Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Resources.h">
+      <Filter>00.Component\01.Component\00.Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Frustum.h">
+      <Filter>00.Component\01.Component\07.Frustum</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Paticle.h">
+      <Filter>00.Component\01.Component\08. Paticle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\SnowPaticle.h">
+      <Filter>00.Component\01.Component\08. Paticle\00. Snow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\BossPaticle.h">
+      <Filter>00.Component\01.Component\08. Paticle\01. BossPaticle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Effect.h">
+      <Filter>00.Component\01.Component\09. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Observer.h">
+      <Filter>03. Observer\00. Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Subject_Manager.h">
+      <Filter>03. Observer\01. Subject\00. Subject_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\DataSubject.h">
+      <Filter>03. Observer\01. Subject\01. DataSubject</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
